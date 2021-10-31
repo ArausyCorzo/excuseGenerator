@@ -1,0 +1,44 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(197, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+main {
+    width: 600px;
+    background-color: rgb(197, 192, 192);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+ header > h1{
+     text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
+}
+section > h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer >  button{
+    
+    background-color: black;
+    border-style: outset;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+
